@@ -1,3 +1,6 @@
+#Marketing making; mean reversion; Ornstein-Uhlenbeck Process (OU); 
+#This algorithm was written based Market Making and Mean Reversion by Tanmoy Chakraborty and Michael Kearns
+
 import numpy as np
 import matplotlib.pyplot as plt
 # Parameters for the Ornstein-Uhlenbeck process
