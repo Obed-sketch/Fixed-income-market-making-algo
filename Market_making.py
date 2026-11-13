@@ -43,7 +43,8 @@ def market_making_algorithm(Q,
           inventory += 1
           cash -= buy_price
 #Record profit at each step
-        profit = cash + inventory * Q[t]profits.append(profit)
+        profit = cash + inventory * Q[t]
+        profits.append(profit)
     return profits
 
 #Simulate the OU process
@@ -60,6 +61,7 @@ plt.xlabel('Time')
 plt.ylabel ('Value')
 plt.title('Market Making Algorithm Performance')
 plt.legend()
+plt.savefig('market_making_results.png')
 plt.show()
           
     
